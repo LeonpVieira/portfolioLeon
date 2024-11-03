@@ -1,0 +1,107 @@
+svg{
+    width: 1.8%;
+    height: 1.8%;
+    padding-left: 5%;
+    
+}
+header{
+text-align: center;
+
+}
+
+#topo{
+    margin-top: 2%;
+   
+}
+
+body{
+    border: 2px solid;
+border-radius: 10px;
+border-color: rgb(214, 24, 24);
+padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+
+
+  footer{
+    margin-top: 3%;
+    text-align: center;
+  }
+
+
+
+  .mg6{
+    width: 70%;
+  }
+
+  .dc{
+    margin-top: 2%;
+    display: flex;
+  }
+
+  .img6{
+    background-color: rgb(121, 98, 202);
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    height: 35vh;
+    border-radius: 20px;
+    color: white; 
+    margin-left: 1%;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* Definindo variáveis para o tema claro */
+:root {
+    --background-color: #ffffff;       /* Fundo branco */
+    --text-color: #000000;             /* Texto preto */
+    --button-background: #000000;      /* Fundo do botão preto */
+    --button-text-color: #ffffff;      /* Texto do botão branco */
+}
+
+/* Estilos gerais do corpo */
+body {
+    background-color: var(--background-color);   /* Cor de fundo do corpo */
+    color: var(--text-color);                    /* Cor do texto */
+    font-family: Arial, sans-serif;              /* Fonte padrão */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave ao mudar de tema */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Estilos do botão */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-background);  /* Fundo do botão */
+    color: var(--button-text-color);             /* Cor do texto do botão */
+    border-radius: 5px;                          /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para o botão */
+}
+
+/* Tema Escuro */
+.dark-mode {
+    --background-color: #3e4bfa;      /* Fundo quase preto */
+    --text-color: #ffffff;            /* Texto branco */
+    --button-background: #ffffff;     /* Fundo do botão branco */
+    --button-text-color: #121212;     /* Texto do botão quase preto */
+    color: white;
+}

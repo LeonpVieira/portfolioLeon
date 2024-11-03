@@ -1,0 +1,198 @@
+.formularioContato { 
+
+    max-width:600px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#ffffff; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative; 
+}
+
+.formularioContato:before { 
+
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+
+}
+
+.formularioContato label  { 
+
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+
+}
+
+.formularioContato label span {
+
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+
+}
+
+.formularioContato label input  { 
+
+    font-size:1em; 
+    color:#555; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label select { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label textarea { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+
+}
+
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+
+.formularioContato button.btn-envia { 
+
+    background-color:rgb(37,174,230); 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+
+}
+
+.formularioContato button.btn-envia:hover { 
+
+    background-color:#333; 
+
+}
+
+svg{
+    width: 1.8%;
+    height: 1.8%;
+    padding-left: 5%;
+    
+}
+header{
+text-align: center;
+
+}
+
+#topo{
+    margin-top: 2%;
+   
+}
+
+body{
+    border: 2px solid;
+border-radius: 10px;
+border-color: rgb(214, 24, 24);
+padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    
+  }
+
+  footer{
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  #gd{
+    display: flex;
+  }
+  #gdemail{
+    margin-left: 30%;
+  }
+
+  /* Definindo variáveis para o tema claro */
+:root {
+    --background-color: #ffffff;       /* Fundo branco */
+    --text-color: #000000;             /* Texto preto */
+    --button-background: #000000;      /* Fundo do botão preto */
+    --button-text-color: #ffffff;      /* Texto do botão branco */
+}
+
+/* Estilos gerais do corpo */
+body {
+    background-color: var(--background-color);   /* Cor de fundo do corpo */
+    color: var(--text-color);                    /* Cor do texto */
+    font-family: Arial, sans-serif;              /* Fonte padrão */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave ao mudar de tema */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Estilos do botão */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-background);  /* Fundo do botão */
+    color: var(--button-text-color);             /* Cor do texto do botão */
+    border-radius: 5px;                          /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para o botão */
+}
+
+/* Tema Escuro */
+.dark-mode {
+    --background-color: #3e4bfa;      /* Fundo quase preto */
+    --text-color: #ffffff;            /* Texto branco */
+    --button-background: #ffffff;     /* Fundo do botão branco */
+    --button-text-color: #121212;     /* Texto do botão quase preto */
+    color: white;
+}
